@@ -21,7 +21,7 @@ RUN go build -o main .
 FROM alpine
 WORKDIR /app
 COPY --from=builder /app/pages/index.html ./pages/index.html
-COPY --from=builder /app/computer.csv .
+COPY --from=builder /app/computer.csv /app/data/computer.csv
 COPY --from=builder /app/main .
 
 ARG WOLHTTPPORT=8080

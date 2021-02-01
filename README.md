@@ -39,8 +39,8 @@ I followed this article (https://www.howtogeek.com/109655/how-to-remotely-shut-d
 
 | Variable Name | Description |
 | ------------- | ------------------------------------------------------------------------------- |
-| WOLFILE       | Define the port on which the webserver will listen to **(Default: 8080)**       |
-| WOLHTTPPORT   | Path to the CSV file containing the list of hosts **(Default: .\computer.csv)** |
+| WOLHTTPPORT   | Define the port on which the webserver will listen to **(Default: 8080)**       |
+| WOLFILE       | Path to the CSV file containing the list of hosts **(Default: .\computer.csv)** |
 | WOLUSER       | Define the username of the remote computer **(Default: user)**                  |
 | WOLPWD        | Define the password of the remote computer's user **(Default: password)**       |
 
